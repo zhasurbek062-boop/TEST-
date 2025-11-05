@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Компьютер боюнча тест</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #004d99;
+  }
+  .question {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  button:hover {
+    background-color: #005fa3;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #004d40;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h1>💻 Компьютер боюнча башталгыч тест</h1>
+
+<form id="quizForm">
+
+<div class="question">
+  <p>1. Компьютердин мээси деп кайсы бөлүгүн аташат?</p>
+  <label><input type="radio" name="q1" value="CPU"> Процессор (CPU)</label><br>
+  <label><input type="radio" name="q1" value="RAM"> RAM</label><br>
+  <label><input type="radio" name="q1" value="SSD"> SSD</label>
+</div>
+
+<div class="question">
+  <p>2. SSD деген эмне?</p>
+  <label><input type="radio" name="q2" value="A"> Ылдам эс тутум</label><br>
+  <label><input type="radio" name="q2" value="B"> Монитордун бир түрү</label><br>
+  <label><input type="radio" name="q2" value="C"> Баскычтар тактасы</label>
+</div>
+
+<div class="question">
+  <p>3. RAM эмнени билдирет?</p>
+  <label><input type="radio" name="q3" value="A"> Убакыттуу эс тутум</label><br>
+  <label><input type="radio" name="q3" value="B"> Туруктуу эс тутум</label><br>
+  <label><input type="radio" name="q3" value="C"> Программа</label>
+</div>
+
+<div class="question">
+  <p>4. Компьютерде маалыматты узак мөөнөткө сактаган түзүлүш?</p>
+  <label><input type="radio" name="q4" value="A"> HDD же SSD</label><br>
+  <label><input type="radio" name="q4" value="B"> RAM</label><br>
+  <label><input type="radio" name="q4" value="C"> CPU</label>
+</div>
+
+<div class="question">
+  <p>5. Монитор эмне кызмат аткарат?</p>
+  <label><input type="radio" name="q5" value="A"> Маалыматты көрсөтөт</label><br>
+  <label><input type="radio" name="q5" value="B"> Маалыматты сактайт</label><br>
+  <label><input type="radio" name="q5" value="C"> Маалыматты иштетет</label>
+</div>
+
+<div class="question">
+  <p>6. BIOS деген эмне?</p>
+  <label><input type="radio" name="q6" value="A"> Система башталган программалык код</label><br>
+  <label><input type="radio" name="q6" value="B"> Графикалык карта</label><br>
+  <label><input type="radio" name="q6" value="C"> Маалымат базасы</label>
+</div>
+
+<div class="question">
+  <p>7. Операциялык система деген эмне?</p>
+  <label><input type="radio" name="q7" value="A"> Компьютерди башкарган программа</label><br>
+  <label><input type="radio" name="q7" value="B"> Аппараттык бөлүк</label><br>
+  <label><input type="radio" name="q7" value="C"> Антивирус</label>
+</div>
+
+<div class="question">
+  <p>8. Программалоо тилинин мисалы кайсы?</p>
+  <label><input type="radio" name="q8" value="A"> Python</label><br>
+  <label><input type="radio" name="q8" value="B"> Chrome</label><br>
+  <label><input type="radio" name="q8" value="C"> Windows</label>
+</div>
+
+<div class="question">
+  <p>9. Компьютерде маалыматты киргизүүчү түзүлүштөр кайсылар?</p>
+  <label><input type="radio" name="q9" value="A"> Баскычтар тактасы жана чычкан</label><br>
+  <label><input type="radio" name="q9" value="B"> Монитор жана принтер</label><br>
+  <label><input type="radio" name="q9" value="C"> Диск жана флешка</label>
+</div>
+
+<div class="question">
+  <p>10. Алгоритм деген эмне?</p>
+  <label><input type="radio" name="q10" value="A"> Маселени чечүү ырааттуу кадамдары</label><br>
+  <label><input type="radio" name="q10" value="B"> Компьютердин тетиги</label><br>
+  <label><input type="radio" name="q10" value="C"> Вирус</label>
+</div>
+
+<div class="question">
+  <p>11. Компьютердин негизги бөлүктөрү кайсылар?</p>
+  <label><input type="radio" name="q11" value="A"> Монитор, системдик блок, клавиатура, чычкан</label><br>
+  <label><input type="radio" name="q11" value="B"> Файл жана папка</label><br>
+  <label><input type="radio" name="q11" value="C"> Программа жана документ</label>
+</div>
+
+<div class="question">
+  <p>12. Компьютердин эс тутуму экиге бөлүнөт, алар кайсылар?</p>
+  <label><input type="radio" name="q12" value="A"> Убакыттуу (RAM) жана туруктуу (ROM)</label><br>
+  <label><input type="radio" name="q12" value="B"> HDD жана CPU</label><br>
+  <label><input type="radio" name="q12" value="C"> Монитор жана принтер</label>
+</div>
+
+<div class="question">
+  <p>13. Компьютердин ылдамдыгын көбүнчө эмне аныктайт?</p>
+  <label><input type="radio" name="q13" value="A"> Процессордун кубаттуулугу жана RAM көлөмү</label><br>
+  <label><input type="radio" name="q13" value="B"> Монитордун өлчөмү</label><br>
+  <label><input type="radio" name="q13" value="C"> Клавиатуранын саны</label>
+</div>
+
+<div class="question">
+  <p>14. Программа деген эмне?</p>
+  <label><input type="radio" name="q14" value="A"> Компьютерге тапшырма берүүчү буйруктар топтому</label><br>
+  <label><input type="radio" name="q14" value="B"> Аппараттык бөлүк</label><br>
+  <label><input type="radio" name="q14" value="C"> Электр тогу</label>
+</div>
+
+<div class="question">
+  <p>15. Маалыматты чыгаруучу түзүлүш?</p>
+  <label><input type="radio" name="q15" value="A"> Принтер</label><br>
+  <label><input type="radio" name="q15" value="B"> Клавиатура</label><br>
+  <label><input type="radio" name="q15" value="C"> Чычкан</label>
+</div>
+
+<div class="question">
+  <p>16. HTML эмнени билдирет?</p>
+  <label><input type="radio" name="q16" value="A"> Веб-баракча түзүү тили</label><br>
+  <label><input type="radio" name="q16" value="B"> Оюн программасы</label><br>
+  <label><input type="radio" name="q16" value="C"> Операциялык система</label>
+</div>
+
+<div class="question">
+  <p>17. Компьютер вирусу деген эмне?</p>
+  <label><input type="radio" name="q17" value="A"> Зыяндуу программа</label><br>
+  <label><input type="radio" name="q17" value="B"> Эс тутум</label><br>
+  <label><input type="radio" name="q17" value="C"> Процессор</label>
+</div>
+
+<div class="question">
+  <p>18. Интернет деген эмне?</p>
+  <label><input type="radio" name="q18" value="A"> Компьютерлердин дүйнөлүк тармагы</label><br>
+  <label><input type="radio" name="q18" value="B"> Принтердин түрү</label><br>
+  <label><input type="radio" name="q18" value="C"> Жергиликтүү диск</label>
+</div>
+
+<div class="question">
+  <p>19. CPU эмнени билдирет?</p>
+  <label><input type="radio" name="q19" value="A"> Борбордук процессор</label><br>
+  <label><input type="radio" name="q19" value="B"> Сактагыч түзүлүш</label><br>
+  <label><input type="radio" name="q19" value="C"> Монитор</label>
+</div>
+
+<div class="question">
+  <p>20. Компьютерди өчүрүү үчүн кандай аракет жасалат?</p>
+  <label><input type="radio" name="q20" value="A"> Start → Shut down</label><br>
+  <label><input type="radio" name="q20" value="B"> Enter басылат</label><br>
+  <label><input type="radio" name="q20" value="C"> ESC басылат</label>
+</div>
+
+<button type="button" onclick="checkAnswers()">Жоопторду текшерүү</button>
+</form>
+
+<div id="result"></div>
+
+<script>
+function checkAnswers() {
+  const correct = {
+    q1: "CPU", q2: "A", q3: "A", q4: "A", q5: "A", q6: "A", q7: "A", q8: "A",
+    q9: "A", q10: "A", q11: "A", q12: "A", q13: "A", q14: "A", q15: "A",
+    q16: "A", q17: "A", q18: "A", q19: "A", q20: "A"
+  };
+  let score = 0;
+  for (let q in correct) {
+    const answer = document.querySelector(`input[name="${q}"]:checked`);
+    if (answer && answer.value === correct[q]) score++;
+  }
+  document.getElementById("result").innerHTML = 
+    "Сиздин упайыңыз: " + score + " / 20";
+}
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
